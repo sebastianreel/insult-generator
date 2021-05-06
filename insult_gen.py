@@ -20,7 +20,7 @@ def printInsult (name, age):
   nouns = ["turnip", "dog", "fart", "hairball", "chicken", "wet-wipe", "hag", "whale"]
   if(age < 16):
     ageA = "young "
-    print (name + ", you are a " + ageA + choice(adejctives) + " " + chioce(nouns))
+    print (name + ", you are a " + ageA + choice(adejctives) + " " + choice(nouns))
   else:
     ageA = "old "
     print (name + ", you are an " + ageA + choice(adjectives) + " " + choice(nouns))
