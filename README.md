@@ -1,5 +1,5 @@
-#Program: Insult Generator
+# Program: Insult Generator
 
-##Project
+## Project
 - Creating a insult generator using Python
 - Learn the basics of Python syntax and function creation
