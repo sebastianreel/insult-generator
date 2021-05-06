@@ -5,7 +5,7 @@
 
 # first get the user's name and age for insult parameteres
 print("What is your name? ")
-name = input(name)
+name = input("Name: ")
 print("Hello " + name)
 print()
 
@@ -20,8 +20,9 @@ def printInsult (name, age):
   nouns = ["turnip", "dog", "fart", "hairball", "chicken", "wet-wipe", "hag", "whale"]
   if(age < 16):
     ageA = "young "
-    print (name + ", you are a " + ageA + choice(adejctives) + " " + choice(nouns))
+    print (name + ", you are a " + ageA + choice(adjectives) + " " + choice(nouns))
   else:
     ageA = "old "
     print (name + ", you are an " + ageA + choice(adjectives) + " " + choice(nouns))
 printInsult(name, age)
+print()
